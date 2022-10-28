@@ -1,11 +1,14 @@
 import React from "react";
+import "./Article.css";
 
 const Article = ({ article }) => {
   return (
-    <section>
-      <h3>{article.sectionName}</h3>
-      <h2>{article.webTitle}.</h2>
-      <a href={article.webUrl}>Read Now!</a>
+    <section className="article">
+      <h3 className="article-section">{article.sectionName}</h3>
+      <h2 className="article-title">{article.webTitle}.</h2>
+      <a className="read-now-link" href={article.webUrl}>
+        Read Now!
+      </a>
     </section>
   );
 };

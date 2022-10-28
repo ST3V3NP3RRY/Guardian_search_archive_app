@@ -1,10 +1,11 @@
 import React from "react";
-
+import "./Heading.css";
 const Heading = () => {
   return (
-    <>
-      <h1>Gaurdian Search Archive</h1>
-    </>
+    <div className="heading">
+      <h1>The Guardian</h1>
+      <h2 className="secondary-heading">Article Archive</h2>
+    </div>
   );
 };
 
