@@ -1,4 +1,5 @@
 import React from "react";
+import "./ArticleList.css";
 import Article from "../components/Article";
 
 const ArticleList = ({ newsArticles }) => {

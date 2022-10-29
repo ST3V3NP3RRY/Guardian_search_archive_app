@@ -3,6 +3,10 @@
   padding: 1rem;
   margin-bottom: 1rem;
   max-width: 30rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .article-section {
@@ -16,4 +20,5 @@
 .article-title {
   line-height: 2rem;
   margin: 0.5rem 0;
+  flex: 1 0 auto;
 }

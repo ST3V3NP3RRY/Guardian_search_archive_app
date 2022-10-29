@@ -1,0 +1,9 @@
+.archive-container {
+  grid-area: article;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  padding: 2rem;
+}
