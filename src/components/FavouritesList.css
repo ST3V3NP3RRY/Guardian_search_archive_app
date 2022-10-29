@@ -1,0 +1,5 @@
+.favourites-list {
+  background-color: #f1f8fc;
+  grid-area: favourites;
+  padding: 2rem;
+}

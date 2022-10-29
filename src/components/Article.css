@@ -3,7 +3,7 @@
   padding: 1rem;
   margin-bottom: 1rem;
   max-width: 30rem;
-  width: 25rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,11 +14,26 @@
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #333333;
+  color: #999999;
 }
 
 .article-title {
   line-height: 2rem;
   margin: 0.5rem 0;
   flex: 1 0 auto;
+}
+
+.read-now-link {
+  color: #e05e00;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  width: 5rem;
+  cursor: pointer;
+}
+.read-now-link:hover {
+  color: #bd5318;
+  border-bottom: 1px solid #bd5318;
+  box-sizing: border-box;
 }

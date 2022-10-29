@@ -22,3 +22,22 @@
   padding-left: 0.5rem;
   width: 16rem;
 }
+
+.search-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-warning > h2 {
+  color: #506991;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.search-warning > h4 {
+  color: #041f4a;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  width: 30rem;
+}
