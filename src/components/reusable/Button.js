@@ -3,7 +3,7 @@ import "./Button.css";
 
 const Button = ({ text, clickHandler }) => {
   return (
-    <button className="btn" onClick={clickHandler}>
+    <button className="btn fav-btn" onClick={clickHandler}>
       {text}
     </button>
   );

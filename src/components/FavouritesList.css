@@ -27,6 +27,11 @@
 
 .fav-links > a:hover {
   color: #0084c6;
+  text-decoration: underline;
+}
+
+.fav-links > a:active {
+  color: #e05e00;
 }
 
 @media screen and (max-width: 600px) {

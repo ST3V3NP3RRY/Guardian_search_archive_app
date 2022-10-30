@@ -42,3 +42,19 @@
   border-bottom: 1px solid #bd5318;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1440px) {
+  .article {
+    min-width: 25rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .article {
+    min-width: 20rem;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .article {
+    min-width: 30rem;
+  }
+}

@@ -1,3 +1,17 @@
 .btn {
-  padding: 0.25rem;
+  padding: 0.25rem 1rem;
+}
+
+.fav-btn {
+  background-color: #ff7f0f;
+  color: white;
+  border: 1px solid #e05e00;
+  border-radius: 1rem;
+}
+.fav-btn:hover {
+  background-color: #e05e00;
+}
+.fav-btn:active {
+  background-color: #bd5318;
+  border: 1px solid white;
 }
