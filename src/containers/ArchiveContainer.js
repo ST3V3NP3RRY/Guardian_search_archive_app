@@ -16,21 +16,21 @@ const ArchiveContainer = () => {
     const apiUrl = url;
     const response = await fetch(apiUrl);
     const data = await response.json();
-    console.log(data);
     setNewsArticles(data);
   }
 
   useEffect(() => {
     fetchArticles();
-  }, [url]); //  I keep gettin a dependancy warning
+  }, [url, favArticles]); //  I keep gettin a dependancy warning
 
   const onInputSearch = (searchUrl) => {
     setUrl(searchUrl);
   };
 
   const addArticleToFavourites = (article) => {
-    // to be completed
-    setFavArticles();
+    const copyFavArticles = [...favArticles];
+    copyFavArticles.push(article);
+    setFavArticles(copyFavArticles);
   };
 
   return (
@@ -43,10 +43,7 @@ const ArchiveContainer = () => {
           onFavouriteButtonClick={addArticleToFavourites}
         />
       </section>
-      <FavouritesList
-        favArticles={favArticles}
-        onFavouriteButtonClick={addArticleToFavourites}
-      />
+      <FavouritesList favArticles={favArticles} />
     </>
   );
 };

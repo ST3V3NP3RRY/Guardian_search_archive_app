@@ -33,7 +33,3 @@ const ArticleList = ({ newsArticles, onFavouriteButtonClick }) => {
 };
 
 export default ArticleList;
-
-// const articles = newsArticles.response.results.map((article) => {
-//     console.log(article);
-//     return <Article article={article} />;

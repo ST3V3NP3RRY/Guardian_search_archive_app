@@ -23,6 +23,11 @@
   flex: 1 0 auto;
 }
 
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .read-now-link {
   color: #e05e00;
   text-decoration: none;

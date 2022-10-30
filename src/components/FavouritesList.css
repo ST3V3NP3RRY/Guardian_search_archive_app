@@ -2,4 +2,35 @@
   background-color: #f1f8fc;
   grid-area: favourites;
   padding: 2rem;
+  width: 20rem;
+}
+
+.fav-header {
+  color: #052962;
+  text-align: center;
+  border-bottom: 2px solid #052962;
+}
+
+.fav-links {
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.fav-links > a {
+  color: #00b2ff;
+  text-decoration: none;
+}
+
+.fav-links > a:visited {
+  color: #005689;
+}
+
+.fav-links > a:hover {
+  color: #0084c6;
+}
+
+@media screen and (max-width: 600px) {
+  .favourites-list {
+    width: 100%;
+  }
 }
